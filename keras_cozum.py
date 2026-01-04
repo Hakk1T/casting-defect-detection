@@ -1,7 +1,7 @@
 import tensorflow as tf
 import os
 
-# Dosya yolunu 
+# Dosya yolu
 base_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(base_dir, "final_model_garanti.keras")
 
@@ -15,3 +15,4 @@ model.summary()
 
 weights = model.layers[0].get_weights()[0]
 print(f"\nİlk katman ağırlık boyutu: {weights.shape}")
+
