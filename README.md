@@ -15,11 +15,13 @@ Kullanılan veri seti dosyanın içerisinde **casting_data/** klasöründe bulun
 
 2. Gerekli kütüphaneleri**requirements.txt** yükleyin :    
     
-    ``` pip install -r requirements.txt 
+    ```bash
+    pip install -r requirements.txt 
 
 3. Modeli eğitin ve test edin :    
     
-    ``` python main.py
+    ```bash
+    python main.py
 
 # Sonuçlar 
 
