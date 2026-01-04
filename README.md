@@ -15,7 +15,7 @@ Bu repo, dosya boyutu sınırları nedeniyle veri setini ve eğitilmiş `.keras`
 3. **Modeli Eğitin:**
    Aşağıdaki komutu çalıştırarak modeli eğitin ve `.keras` dosyasını oluşturun:
    ```bash
-   python train_model.py
+   python main.py
 
 # Kurulum ve Çalıştırma
 
