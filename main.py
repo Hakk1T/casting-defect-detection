@@ -160,7 +160,7 @@ save_path = os.path.join(BASE_DIR, "final_model_garanti.keras")
 model.save(save_path)
 
 print("-" * 30)
-print(f"✅ DOSYA OLUŞTURULDU: {save_path}")
+print(f"DOSYA OLUŞTURULDU: {save_path}")
 print("-" * 30)
 
 # Sonuclari cizdirme
